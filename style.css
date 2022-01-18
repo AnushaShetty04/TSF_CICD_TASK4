@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #111;
+    box-sizing: border-box;
+	background-image:url("background.png") ;
+}
+
+h1 {
+	color:coral;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: cursive;
+}
+
+.title{
+	color: rgb(81, 16, 233);
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.50rem ;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 550px;
+    margin: 0.25rem;
+    transition: .2s;
+    font-size: 1.15rem;
+	font-family:cursive;
+	color:rgb(62, 63, 63);
+	background-color:rgb(180, 241, 243);;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid #fff;
+	margin-bottom: 1.5rem;
+	background-color: rgb(180, 241, 243);
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	font-size: 1.15rem;
+	font-family:cursive ;
+	color:rgb(62, 63, 63);
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: rgb(81, 16, 233);
+	font-size: 1.4rem;
+	font-family: cursive;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: coral;
+	font-size: 1.4rem;
+	font-family: cursive;
+	cursor: pointer;
+}
